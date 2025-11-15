@@ -211,7 +211,11 @@ img {
   list-style-position: inside; /* Puts bullets inside the box */
   padding-left: 10px;
 }
-
+.content-box li {
+  /* Targets the actual bullet point text */
+  font-size: 0.9rem; /* Smaller than the default 1rem */
+  margin-bottom: 6px; /* Added to space them out slightly */
+}
 /* --- 6. FOOTER --- */
 .site-footer {
   background-color: var(--color-dark-brown); /* Same as nav */
